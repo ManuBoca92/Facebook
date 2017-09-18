@@ -21,4 +21,7 @@ Valid user should be able to login
     amazonApp.Sign in with credentials
 
 
+Feature 1 test
+    log  Doign feature 1
+
 
