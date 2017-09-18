@@ -16,7 +16,7 @@ ${PASSWORD} =   sfafefege
 
 *** Test Cases ***
 Valid user should be able to login
-    [Tags]  Correct1
+    [Tags]  Correct
     amazonApp.Open the webpage
     amazonApp.Sign in with credentials
 
