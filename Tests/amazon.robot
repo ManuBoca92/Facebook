@@ -11,8 +11,8 @@ Test Teardown  End Web Test
 *** Variables ***
 ${BROWSER} =   chrome
 ${URL} =    https://www.facebook.com
-${EMAIL} =   ebtopz@yahoo.com
-${PASSWORD} =   sfafefege
+${EMAIL} =   ebtoppaz@yahoo.com
+${PASSWORD} =   iloveeugenia
 
 *** Test Cases ***
 Valid user should be able to login
