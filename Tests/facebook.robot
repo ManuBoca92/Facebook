@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation  This is some basic info
 Resource  ../Resource/Common.robot
-Resource  ../Resource/amazonApp.robot
+Resource  ../Resource/facebookApp.robot
 Resource  ../Resource/PO/LandingPage.robot
 Resource  ../Resource/PO/TopNav.robot
 
@@ -11,14 +11,15 @@ Test Teardown  End Web Test
 *** Variables ***
 ${BROWSER} =   chrome
 ${URL} =    https://www.facebook.com
-${EMAIL} =
+${EMAIL} =  ebtoppaz@yahoo.com
+#type in password
 ${PASSWORD} =
 
 *** Test Cases ***
 Valid user should be able to login
     [Tags]  Correct
-    amazonApp.Open the webpage
-    amazonApp.Sign in with credentials
+    facebookApp.Open the webpage
+    facebookApp.Sign in with credentials
 
 
 Feature 1 test
